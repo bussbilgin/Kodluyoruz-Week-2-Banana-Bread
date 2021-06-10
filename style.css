@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ol , ul {
+    list-style-type: none;
+}
+
+abbr {
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav form {
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav form input {
+    width: 900px;
+    height: 25px;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #363636;
+}
+
+nav form button {
+    border: none;
+    background-color: white;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .front-left {
+    width: 48%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section .front-left .font {
+    width: 100%;
+    height: 250px;
+    font-family: 'Vidaloka', serif;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+section .front-left .text {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-left , .text-right {
+    width: 30%;
+    height: 230px;
+}
+
+.text-middle {
+    width: 20%;
+    height: 230px;
+}
+
+.text-left1 , .text-left2 , .text-left3 {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border-right-style:solid;
+    border-right-width: 1px;
+    border-right-color: silver;
+}
+
+.text-left , .text-middle , .text-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text-left span {
+    font-weight: bold;
+}
+
+.text-middle1 , .text-middle2 , .text-middle3 , .text-middle4 {
+    width: 100%;
+    height: 37.5px;
+    font-size: 16px;
+}
+
+.text-middle span {
+    font-weight: bold;
+}
+
+.text-right1 , .text-right2 , .text-right3 {
+    width: 100%;
+    height: 50px;
+    border-left-style:solid;
+    border-left-width: 1px;
+    border-left-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-right2 , .text-right3 {
+    font-weight: bold;
+}
+
+section .front-right { 
+    width: 46%;
+    height: 500px;
+    background-color: teal;
+}
+
+.front-right img {
+    width: 100%;
+    height: 600px;
+}
+
+.article-1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.article-11 {
+    width: 50%;
+    height: 500px;
+}
+
+.header1 {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-111 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.article-1-left {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;  
+}
+
+table {
+    width: 90%;
+    height: 400px;
+    font-size: 18px;
+}
+
+.article-12 {
+    width: 30%;
+    height: 500px;
+}
+
+.header2 {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-121 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-1-right {
+    width: 80%;
+    height: 320px;
+}
+
+.article-1-right ul{
+    font-size: 18px;
+}
+
+.article-2 {
+    width: 100%;
+    height: 450px;
+}
+
+.header3 {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-21 {
+    width: 60%;
+    height: 380px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.article-3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.article-31 {
+    width: 100%;
+    height: 180px;
+    border-top-style:solid;
+    border-top-width: 1px;
+    border-top-color: silver;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.article-31 img {
+    width: 180px;
+}
+
+footer {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer h5 {
+    font-family: 'Vidaloka', serif;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-1 {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #363636;
+}
+
+.connect , .join , .find {
+    width: 20%;
+    height: 270px;
+}
+
+.connect , .join , .find {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connect1 , .join1 , .find1  {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.connect2 {
+    width: 100%;
+    height: 90px;
+    font-size: 16px;
+}
+
+.connect3 {
+    width: 100%;
+    height: 90px;
+    font-size: 16px;
+}
+
+.connect3 input {
+    width: 240px;
+}
+
+.connect3 img {
+    width: 22px;
+}
+
+.connect {
+    color: white;
+}
+
+.join2 , .find2 {
+    width: 100%;
+    height: 180px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #363636;
+}
+
+.footer-2 p {
+    font-size: 17px;
+}
+
+.footer-2 sup {
+    font-size: 9px;
+}
+
+.connect3 form button {
+    border: none;
+    background-color: white;
+}
